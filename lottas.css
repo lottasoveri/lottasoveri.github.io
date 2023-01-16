@@ -1,0 +1,80 @@
+body {
+    background-color: #006400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: #38b000;
+    color: white;
+    width: 500px;
+    padding: 1em;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    margin: auto;
+    box-shadow: 5px 5px #2c2c2c;
+}
+
+nav {
+    padding: 1em 1em 1em 1em;
+    text-align: center;
+    color: #9ef01a;
+}
+
+a {
+    color: #9ef01a;
+    text-decoration: none;
+
+}
+
+@keyframes viewbox {
+    from {transform: rotateY(90deg)}
+    to {transform: rotateY(0deg)}
+}
+
+.content {
+    width: 400px;
+    margin: auto;
+    padding: 1em;
+    background-color: #ccff33;
+    border: 5px solid #38b000;
+    transform: rotateY(90deg);
+    animation-name: viewbox;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    box-shadow: 5px 5px #2c2c2c;
+}
+
+td {
+    padding: 0.5em;
+}
+
+caption {
+    text-align: left;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+#lotta {
+    float: right;
+    padding: 0em 1em 1em 1em;
+}
+
+footer {
+    background-color: #38b000;
+    color: white;
+    width: 500px;
+    padding: 1em;
+    font-style: italic;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    box-shadow: 5px 5px #2c2c2c;    
+}
