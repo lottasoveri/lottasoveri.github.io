@@ -62,7 +62,7 @@ table {
 }
 
 th {
-    vertical-align: top;
+    vertical-align: baseline;
     padding: 0.5em;
 }
 
