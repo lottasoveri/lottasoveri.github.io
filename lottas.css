@@ -1,6 +1,7 @@
 body {
     background-color: #006400;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-content: center;
 }
 
 header {
@@ -25,7 +26,15 @@ nav {
 a {
     color: #9ef01a;
     text-decoration: none;
+}
 
+a.text {
+    color: #006400;
+    text-decoration: none;
+}
+
+dd {
+    font-style: italic;
 }
 
 @keyframes viewbox {
@@ -44,21 +53,24 @@ a {
     animation-duration: 3s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
-    box-shadow: 5px 5px #2c2c2c;
+    box-shadow: 7px 7px #2e2e2e;
     overflow: hidden;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    vertical-align: top;
+    padding: 0.5em;
 }
 
 td {
     padding: 0.5em;
 }
 
-caption {
-    text-align: left;
-    font-weight: bold;
-    padding: 0.5em;
-}
-
-li {
+li, dd {
     margin-bottom: 1em;
 }
 
