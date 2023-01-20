@@ -1,12 +1,17 @@
+/* Page */
+
 body {
-    background-color: #006400;
+    background-color: #0f4c5c;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-content: center;
 }
 
+/* Header */
+
 header {
-    background-color: #38b000;
+    background-color: #9a031e;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     width: 500px;
     padding: 1em;
     font-size: xx-large;
@@ -17,25 +22,24 @@ header {
     box-shadow: 5px 5px #2c2c2c;
 }
 
+/* Navigation */
+
 nav {
     padding: 1em 1em 1em 1em;
     text-align: center;
-    color: #9ef01a;
+    color: #e36414;
 }
 
-a {
-    color: #9ef01a;
+nav a {
+    color: #fb8b24;
     text-decoration: none;
 }
 
-a.text {
-    color: #006400;
-    text-decoration: none;
+nav a:hover {
+    color: #ff9f45;
 }
 
-dd {
-    font-style: italic;
-}
+/* Content */
 
 @keyframes viewbox {
     from {transform: rotateY(90deg)}
@@ -46,8 +50,8 @@ dd {
     width: 400px;
     margin: auto;
     padding: 1em;
-    background-color: #ccff33;
-    border: 5px solid #38b000;
+    background-color: #fb8b24;
+    border: 5px solid #5f0f40;
     transform: rotateY(90deg);
     animation-name: viewbox;
     animation-duration: 3s;
@@ -57,31 +61,68 @@ dd {
     overflow: hidden;
 }
 
-table {
-    border-collapse: collapse;
+a {
+    color: #7e1455;
+    text-decoration: none;
 }
 
-th {
-    vertical-align: baseline;
-    padding: 0.5em;
+a:hover {
+    color: #aa317c;
 }
 
-td {
-    padding: 0.5em;
+dd {
+    font-style: italic;
 }
 
 li, dd {
     margin-bottom: 1em;
 }
 
-#lotta {
-    float: right;
-    padding: 0em 1em 1em 1em;
+fieldset {
+    border: 1px solid #e36414;
 }
 
-footer {
-    background-color: #38b000;
+input[type=submit] {
+    background-color: #7e1455;
+    border: none;
+    border-radius: 3px;
     color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;  
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    vertical-align: top;
+    padding: 0.5em;
+}
+
+td {
+    padding: 0.4em;
+}
+
+hr {
+    background-color: #e36414;
+    height: 1px;
+    border: none;
+}
+
+#lotta {
+    float: right;
+    margin: 0em 0em 1em 1em;
+    border: 1px solid #e36414;
+}
+
+/* Footer */
+
+footer {
+    background-color: #9a031e;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     width: 500px;
     padding: 1em;
     font-style: italic;
