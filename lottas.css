@@ -1,7 +1,7 @@
 /* Page */
 
 body {
-    background-color: #0f4c5c;
+    background-color: #242424;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-content: center;
 }
@@ -9,7 +9,7 @@ body {
 /* Header */
 
 header {
-    background-color: #9a031e;
+    background-color: #005f77;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 500px;
@@ -19,7 +19,7 @@ header {
     font-style: italic;
     text-align: center;
     margin: auto;
-    box-shadow: 5px 5px #2c2c2c;
+    box-shadow: 5px 5px #141414;
 }
 
 /* Navigation */
@@ -27,16 +27,16 @@ header {
 nav {
     padding: 1em 1em 1em 1em;
     text-align: center;
-    color: #e36414;
+    color: #005f77;
 }
 
 nav a {
-    color: #fb8b24;
+    color: #008fb3;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #ff9f45;
+    color: #00ccff;
 }
 
 /* Content */
@@ -50,14 +50,14 @@ nav a:hover {
     width: 400px;
     margin: auto;
     padding: 1em;
-    background-color: #fb8b24;
-    border: 5px solid #5f0f40;
+    background-color: #d3d3d3;
+    border: 5px solid #005f77;
     transform: rotateY(90deg);
     animation-name: viewbox;
     animation-duration: 3s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
-    box-shadow: 7px 7px #2e2e2e;
+    box-shadow: 7px 7px #141414;
     overflow: hidden;
 }
 
@@ -71,7 +71,7 @@ a:hover {
 }
 
 dd {
-    font-style: italic;
+    font-size: smaller;
 }
 
 li, dd {
@@ -79,11 +79,11 @@ li, dd {
 }
 
 fieldset {
-    border: 1px solid #e36414;
+    border: 1px solid #005f77;
 }
 
 input[type=submit] {
-    background-color: #7e1455;
+    background-color: #005f77;
     border: none;
     border-radius: 3px;
     color: white;
@@ -106,7 +106,7 @@ td {
 }
 
 hr {
-    background-color: #e36414;
+    background-color: #005f77;
     height: 1px;
     border: none;
 }
@@ -114,13 +114,13 @@ hr {
 #lotta {
     float: right;
     margin: 0em 0em 1em 1em;
-    border: 1px solid #e36414;
+    border: 1px solid #005f77;
 }
 
 /* Footer */
 
 footer {
-    background-color: #9a031e;
+    background-color: #005f77;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 500px;
@@ -130,5 +130,5 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
-    box-shadow: 5px 5px #2c2c2c;    
+    box-shadow: 5px 5px #141414;    
 }
