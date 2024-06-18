@@ -18,7 +18,9 @@ header {
     font-weight: bolder;
     font-style: italic;
     text-align: center;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
     box-shadow: 5px 5px #141414;
 }
 
@@ -76,6 +78,11 @@ dd {
 
 li, dd {
     margin-bottom: 1em;
+}
+
+.alpha {
+    list-style-type: lower-alpha;
+    margin-top: 1em;
 }
 
 fieldset {
